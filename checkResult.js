@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const userID = document.getElementById("userID").value; // Get the user input
         const baseUrl =
-            "https://michael-aladejobi.github.io/HealthVitals-/profile.html"; // actual base URL // TOP LEVEL
+            "https://michael-aladejobi.github.io/HealthVitalsPro/profile.html"; // actual base URL // TOP LEVEL
         const fullUrl = `${baseUrl}?id=${encodeURIComponent(userID)}`; // Appended the userID to the URL
 
         if (userID === "") {
